@@ -1,0 +1,17 @@
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+'Finished building: ../finalcode.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalcode.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****

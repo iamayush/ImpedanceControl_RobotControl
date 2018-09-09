@@ -1,0 +1,359 @@
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalproj_v1.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalproj_v1.d"  "../finalproj_v1.c"
+'Finished building: ../finalproj_v1.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalproj_v1.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k clean 
+DEL /F  "CRSRobot.cdb"  "CRSRobot.hex"  "CRSRobotcfg.cmd" "CRSRobotcfg.s??" "CRSRobotcfg_c.c"  "CRSRobot.out"  "CRSRobotcfg.h" "CRSRobotcfg.h??" 
+DEL /F "CRSRobotcfg.d" 
+DEL /F "28335_eqep.obj" "28335_inits.obj" "28335_pwm.obj" "28335_serial.obj" "28335_spi.obj" "CRSRobotcfg.obj" "CRSRobotcfg_c.obj" "DSP2833x_ADC_cal.obj" "DSP2833x_Adc.obj" "DSP2833x_CSMPasswords.obj" "DSP2833x_CodeStartBranch.obj" "DSP2833x_CpuTimers.obj" "DSP2833x_GlobalVariableDefs.obj" "DSP2833x_PieCtrl.obj" "DSP2833x_Spi.obj" "DSP2833x_SysCtrl.obj" "DSP2833x_usDelay.obj" "coecsl.obj" "finalproj_v1.obj" "smallprintf.obj" "user_CRSRobot.obj" 
+DEL /F "28335_eqep.d" "28335_inits.d" "28335_pwm.d" "28335_serial.d" "28335_spi.d" "CRSRobotcfg_c.d" "DSP2833x_Adc.d" "DSP2833x_CpuTimers.d" "DSP2833x_GlobalVariableDefs.d" "DSP2833x_PieCtrl.d" "DSP2833x_Spi.d" "DSP2833x_SysCtrl.d" "coecsl.d" "finalproj_v1.d" "smallprintf.d" "user_CRSRobot.d" 
+DEL /F "DSP2833x_ADC_cal.d" "DSP2833x_CSMPasswords.d" "DSP2833x_CodeStartBranch.d" "DSP2833x_usDelay.d" 
+Could Not Find C:\ayush2_maa11\repo\trunk\CRSRobot\CRSRobotProject\Debug\CRSRobotcfg.d
+Could Not Find C:\ayush2_maa11\repo\trunk\CRSRobot\CRSRobotProject\Debug\DSP2833x_ADC_cal.d
+'Finished clean'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+gmake[1]: Entering directory 'C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug'
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/DSPBIOS/CRSRobot.tcf'
+'Invoking: TConf'
+"C:/CCStudio_v7/bios_5_42_02_10/xdctools/tconf" -b -Dconfig.importPath="C:/CCStudio_v7/bios_5_42_02_10/packages;" "C:/ayush2_maa11/repo/trunk/CRSRobot/DSPBIOS/CRSRobot.tcf"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/DSPBIOS/CRSRobot.tcf'
+' '
+gmake[1]: Leaving directory 'C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug'
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_eqep.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="28335_eqep.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_eqep.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_eqep.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_inits.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="28335_inits.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_inits.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_inits.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_pwm.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="28335_pwm.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_pwm.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_pwm.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_serial.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="28335_serial.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_serial.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_serial.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_spi.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="28335_spi.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_spi.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/src/28335_spi.c'
+' '
+'Building file: CRSRobotcfg.s??'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="CRSRobotcfg.d"  "CRSRobotcfg.s??"
+'Finished building: CRSRobotcfg.s??'
+' '
+'Building file: CRSRobotcfg_c.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="CRSRobotcfg_c.d"  "CRSRobotcfg_c.c"
+'Finished building: CRSRobotcfg_c.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_ADC_cal.asm'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_ADC_cal.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_ADC_cal.asm"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_ADC_cal.asm'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_Adc.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Adc.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_Adc.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_Adc.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_CSMPasswords.asm'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CSMPasswords.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_CSMPasswords.asm"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_CSMPasswords.asm'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_CodeStartBranch.asm'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CodeStartBranch.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_CodeStartBranch.asm"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_CodeStartBranch.asm'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_CpuTimers.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_CpuTimers.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_CpuTimers.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_CpuTimers.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_GlobalVariableDefs.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/source/DSP2833x_GlobalVariableDefs.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_PieCtrl.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_PieCtrl.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_PieCtrl.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_PieCtrl.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_Spi.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_Spi.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_Spi.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_Spi.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_SysCtrl.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_SysCtrl.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_SysCtrl.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_SysCtrl.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_usDelay.asm'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="DSP2833x_usDelay.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_usDelay.asm"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/source/DSP2833x_usDelay.asm'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/src/coecsl.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="coecsl.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/src/coecsl.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/src/coecsl.c'
+' '
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+
+>> Compilation failure
+subdir_rules.mk:152: recipe for target 'finalcode.obj' failed
+"../finalcode.c", line 524: error #20: identifier "theta1des" is undefined
+1 error detected in the compilation of "../finalcode.c".
+gmake: *** [finalcode.obj] Error 1
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/src/smallprintf.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="smallprintf.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/src/smallprintf.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/src/smallprintf.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/src/user_CRSRobot.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="user_CRSRobot.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/src/user_CRSRobot.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/src/user_CRSRobot.c'
+' '
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+'Finished building: ../finalcode.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalcode.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+'Finished building: ../finalcode.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalcode.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+
+>> Compilation failure
+subdir_rules.mk:152: recipe for target 'finalcode.obj' failed
+"../finalcode.c", line 510: error #20: identifier "iktheta1" is undefined
+"../finalcode.c", line 510: error #20: identifier "iktheta2" is undefined
+"../finalcode.c", line 510: error #20: identifier "iktheta3" is undefined
+"../finalcode.c", line 512: error #20: identifier "ikthetaM1" is undefined
+"../finalcode.c", line 512: error #20: identifier "ikthetaM2" is undefined
+"../finalcode.c", line 512: error #20: identifier "ikthetaM3" is undefined
+6 errors detected in the compilation of "../finalcode.c".
+gmake: *** [finalcode.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+'Finished building: ../finalcode.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalcode.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+'Finished building: ../finalcode.c'
+' '
+'Building file: C:/ayush2_maa11/repo/trunk/CRSRobot/src/user_CRSRobot.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="user_CRSRobot.d"  "C:/ayush2_maa11/repo/trunk/CRSRobot/src/user_CRSRobot.c"
+'Finished building: C:/ayush2_maa11/repo/trunk/CRSRobot/src/user_CRSRobot.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalcode.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+'Finished building: ../finalcode.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalcode.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+'Finished building: ../finalcode.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalcode.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+'Finished building: ../finalcode.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalcode.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRSRobot ****
+
+"C:\\CCStudio_v7\\ccsv7\\utils\\bin\\gmake" -k all 
+'Building file: ../finalcode.c'
+'Invoking: C2000 Compiler'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 --include_path="C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_headers/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/v110/DSP2833x_common/include" --include_path="C:/ayush2_maa11/repo/trunk/CRSRobot/CRSRobotProject/Debug" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/include" --include_path="C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/include/c2000" -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number --preproc_with_compile --preproc_dependency="finalcode.d"  "../finalcode.c"
+'Finished building: ../finalcode.c'
+' '
+'Building target: CRSRobot.out'
+'Invoking: C2000 Linker'
+"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/bin/cl2000" -v28 -ml -mt --float_support=fpu32 -g --define=LARGE_MODEL --define=_DEBUG --define=DSP28_BIOS --define=F28335_CONTROL_CARD --define=F28335_CONTROL_CARD30 --diag_warning=225 --display_error_number -z -m"CRSRobot.map" --stack_size=0xc00 --warn_sections -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/lib" -i"C:/CCStudio_v7/ccsv7/tools/compiler/ti-cgt-c2000_6.4.12/include" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/rtdx/lib/c2000" -i"C:/CCStudio_v7/bios_5_42_02_10/packages/ti/bios/lib" --reread_libs --xml_link_info="CRSRobot_linkInfo.xml" --rom_model -o "CRSRobot.out" "./28335_eqep.obj" "./28335_inits.obj" "./28335_pwm.obj" "./28335_serial.obj" "./28335_spi.obj" "./CRSRobotcfg.obj" "./CRSRobotcfg_c.obj" "./DSP2833x_ADC_cal.obj" "./DSP2833x_Adc.obj" "./DSP2833x_CSMPasswords.obj" "./DSP2833x_CodeStartBranch.obj" "./DSP2833x_CpuTimers.obj" "./DSP2833x_GlobalVariableDefs.obj" "./DSP2833x_PieCtrl.obj" "./DSP2833x_Spi.obj" "./DSP2833x_SysCtrl.obj" "./DSP2833x_usDelay.obj" "./coecsl.obj" "./finalcode.obj" "./smallprintf.obj" "./user_CRSRobot.obj" "C:/ayush2_maa11/repo/trunk/CRSRobot/user_lnk.cmd" -l"./CRSRobotcfg.cmd" -llibc.a 
+<Linking>
+'Finished building target: CRSRobot.out'
+' '
+
+**** Build Finished ****
